@@ -21,11 +21,17 @@ setTimeout(function(){
 
 
 
-//------------------------------------------------
+//--------------------------------------------------
 
 
 for(let i=1;i<=10;i++){
     setTimeout(function(){
         console.log(i);
+    },i*1000)
+}
+
+for(let i=10;i>=0;i--){
+    setTimeout(function(){
+        console.log(11-i);
     },i*1000)
 }
