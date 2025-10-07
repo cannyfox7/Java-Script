@@ -30,8 +30,8 @@ for(let i=1;i<=10;i++){
     },i*1000)
 }
 
-for(let i=10;i>=0;i--){
+for(let i=11;i>=0;i--){
     setTimeout(function(){
-        console.log(11-i);
+        console.log(12-i);
     },i*1000)
 }
