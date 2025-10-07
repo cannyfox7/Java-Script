@@ -7,3 +7,25 @@ function mello(){
 
 setTimeout(hello,2*1000);
 setTimeout(mello,1*1000);
+
+//----------------------------------------------------------------
+
+
+setTimeout(function(){
+    console.log("hello rahul");
+
+},4*1000);
+setTimeout(function(){
+    console.log("hello foxy");
+},5*1000);
+
+
+
+//------------------------------------------------
+
+
+for(let i=1;i<=10;i++){
+    setTimeout(function(){
+        console.log(i);
+    },i*1000)
+}
